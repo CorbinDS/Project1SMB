@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3136820629370392942, guid: 62dcba975a0bdfe47bef48ea43049412, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3854269363171675655, guid: 62dcba975a0bdfe47bef48ea43049412, type: 3}
       propertyPath: m_LocalPosition.x
@@ -637,8 +637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullMaterial: {fileID: 2100000, guid: 14daeae99ac398a4fb4064e7e8b0c469, type: 2}
   darkRegionThreshold: 0.22
-  darkColor: {r: 0.11320752, g: 0.109544694, b: 0.014311137, a: 0}
-  lightColor: {r: 0.9339623, g: 0.9232617, b: 0.858188, a: 0}
+  darkColor: {r: 0.03137255, g: 0.019607844, b: 0.007843138, a: 0}
+  lightColor: {r: 0.9433962, g: 0.9341215, b: 0.8846564, a: 0}
   useColor: 1
 --- !u!1001 &1646525124
 PrefabInstance:
@@ -651,6 +651,10 @@ PrefabInstance:
     - target: {fileID: 1526554761915109350, guid: 076879464bd682945aa7cd31ae139a36, type: 3}
       propertyPath: m_Name
       value: cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526554761915109350, guid: 076879464bd682945aa7cd31ae139a36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2554720417436106229, guid: 076879464bd682945aa7cd31ae139a36, type: 3}
       propertyPath: m_LocalScale.x

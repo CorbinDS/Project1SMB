@@ -18,9 +18,7 @@ public class MonkeyController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        float xDiff = 0.0f;
-        float yDiff = 0.0f;
-        float zDiff = 0.0f;
+
         // xDiff = lastPosition.x - transform.position.x;
         if (lastPosition.x < transform.position.x - .25 * Time.deltaTime)
         {

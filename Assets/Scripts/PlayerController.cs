@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
         // Calculate force direction
         Vector3 forceDirection = playerPos.transform.forward * forwardInput * speed;
         rb.AddForce(forceDirection);
+        // Debug.Log(rb.velocity.magnitude);
     }
 
     public bool IsMoving()

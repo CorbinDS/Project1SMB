@@ -428,8 +428,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1951017134}
   rotationSpeed: 1
+  speedCutoff: 12
+  speedLines: {fileID: 1494602204}
   playerPos: {fileID: 1741597054}
   minimumDist: 1
+  yDist: 2
 --- !u!81 &1438070211
 AudioListener:
   m_ObjectHideFlags: 0
@@ -501,7 +504,8 @@ Transform:
   m_LocalPosition: {x: 140.83351, y: 36.86129, z: 208.52077}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1494602202}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 22.139, y: 179.145, z: 0}
 --- !u!114 &1438070214
@@ -521,6 +525,73 @@ MonoBehaviour:
   darkColor: {r: 0.103773594, g: 0.055355467, b: 0.009202559, a: 0}
   lightColor: {r: 0.9528302, g: 0.89350307, b: 0.89350307, a: 0}
   useColor: 0
+--- !u!1001 &1494602201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1438070213}
+    m_Modifications:
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391900731163414278, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+      propertyPath: m_Name
+      value: Speedlines
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+--- !u!4 &1494602202 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 81018600488253526, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+  m_PrefabInstance: {fileID: 1494602201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1494602204 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3693575614184381474, guid: cf6086484803f334097bc32816fd0c45, type: 3}
+  m_PrefabInstance: {fileID: 1494602201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1581928783
 GameObject:
   m_ObjectHideFlags: 0

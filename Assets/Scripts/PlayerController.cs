@@ -6,9 +6,11 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 0;
+    public float rotationSpeed = 100; // Speed of rotation
+    public GameObject playerPos;
     private Rigidbody rb;
-    private float movementX;
-    private float movementY;
+    private float rotationInput;
+    private float forwardInput;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,13 +20,56 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue movementVal)
     {
         Vector2 movementVector = movementVal.Get<Vector2>();
-        movementX = movementVector.x;
-        movementY = movementVector.y;
+        if (movementVector.x > 0)
+        {
+            rotationInput = 1;
+        }
+        else if (movementVector.x < 0)
+        {
+            rotationInput = -1;
+        }
+        else
+        {
+            rotationInput = 0;
+        }
+
+        if (movementVector.y > 0)
+        {
+            forwardInput = 1;
+        }
+        else if (movementVector.y < 0)
+        {
+            forwardInput = -1;
+        }
+        else
+        {
+            forwardInput = 0;
+        }
+
     }
 
     void FixedUpdate()
     {
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-        rb.AddForce(movement * speed);
+        // Calculate rotation
+        float rotationAngle = rotationInput * rotationSpeed * Time.deltaTime;
+        playerPos.transform.Rotate(0, rotationAngle, 0);
+        // Calculate force direction
+        Vector3 forceDirection = playerPos.transform.forward * forwardInput * speed;
+        rb.AddForce(forceDirection);
     }
+
+    public bool IsMoving()
+    {
+        return rb.velocity.magnitude > 0.1f; // Checks if the player is moving
+    }
+
+    // public float GetMovementX()
+    // {
+    //     return movementX;
+    // }
+
+    // public float GetMovementZ()
+    // {
+    //     return movementY;
+    // }
 }

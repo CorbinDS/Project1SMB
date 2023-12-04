@@ -5,27 +5,32 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public GameObject player;
+    public float rotationSpeed = 5.0f;
 
-    private Vector3 offset;
-    private Rigidbody rb;
-
-    // Start is called before the first frame update
+    private PlayerController playerController;
+    public GameObject playerPos;
+    public float minimumDist = 3.0f;
+    public float yDist = 2.0f;
     void Start()
     {
-        offset = transform.position - player.transform.position;
-        rb = player.GetComponent<Rigidbody>();
+        playerController = player.GetComponent<PlayerController>();
+
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
-        // float yRotation = Mathf.Acos(Vector3.Dot(rb.velocity.normalized, transform.forward)) * Mathf.Rad2Deg;
+        // Keep the camera at the offset distance but rotate it around the player
+        // transform.position = player.transform.position;
 
-        // // Debug.Log(yRotation);
-        // // transform.eulerAngles = new Vector3(transform.eulerAngles.x, yRotation, transform.eulerAngles.z);
-        // transform.RotateAround(player.transform.position, new Vector3(0, 1, 0), yRotation * Time.deltaTime);
-        // offset = transform.position - player.transform.position;
-        transform.position = player.transform.position + offset;
-
+        // Get the player's movement direction
+        // float movementX = playerController.GetMovementX();
+        // float movementZ = playerController.GetMovementZ();
+        // if (movementX != 0 || movementZ != 0)
+        // {
+        //     xDir = movementX != 0 ? (int)Mathf.Sign(movementX) : 0;
+        // }
+        Vector3 offset = new Vector3(Mathf.Cos(Mathf.Deg2Rad * -(playerPos.transform.eulerAngles.y + 90)), yDist, Mathf.Sin(Mathf.Deg2Rad * -(playerPos.transform.eulerAngles.y + 90)));
+        transform.position = player.transform.position + 3 * offset;
+        transform.LookAt(player.transform.position);
     }
 }

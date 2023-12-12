@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public float sprintDec = .4f;
     public float sprintRegen = .2f;
     private bool sprinting;
+    private bool justDrained;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
         sprintMeter = 1.0f;
         sprintDec = .4f;
         sprintRegen = .2f;
+        justDrained = false;
     }
 
     void OnMove(InputValue movementVal)
@@ -58,14 +60,16 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && sprintMeter > 0.0f)
+        if (Input.GetKey(KeyCode.LeftShift) && sprintMeter > 0.0f && !justDrained)
         {
             sprintMeter -= sprintDec * Time.deltaTime;
+            if (sprintMeter < 0.05) justDrained = true;
             if (sprintMeter < 0) sprintMeter = 0.0f;
             sprinting = true;
         }
         else if (sprintMeter < 1.0f)
         {
+            if (sprintMeter > .3) justDrained = false;
             sprintMeter += sprintRegen * Time.deltaTime;
             if (sprintMeter > 1.0f) sprintMeter = 1.0f;
             sprinting = false;

@@ -3544,3 +3544,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21312.210224 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cbd771acd30f07e48a871617dc27dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cbd771acd30f07e48a871617dc27dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8286411c35a409c3f96a5271878d592e') in 0.097982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 220.775883 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cbd771acd30f07e48a871617dc27dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cbd771acd30f07e48a871617dc27dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e96bef5ed37ccbe5e47951e9ce49711') in 0.008440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.719492 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs
+  artifactKey: Guid(eca31f31c914e0047af3e017ff06f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs using Guid(eca31f31c914e0047af3e017ff06f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c952f39dd5a435898a05e1fd0611249') in 0.000495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.989445 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/CoinGold.prefab
+  artifactKey: Guid(4eca7a8ef879cfb41b294a8c0d69ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/CoinGold.prefab using Guid(4eca7a8ef879cfb41b294a8c0d69ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef6d5b9833ccc389bda5141fcd30285') in 0.060380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/HourGlass.prefab
+  artifactKey: Guid(8e96a5cadf0c8f948b8c09bc6772e39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/HourGlass.prefab using Guid(8e96a5cadf0c8f948b8c09bc6772e39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c27ab9d1fe7c064186eebf38e0ad7d1') in 0.008042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.542240 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems
+  artifactKey: Guid(0225b01194a2b874aab88b157a916847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems using Guid(0225b01194a2b874aab88b157a916847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed589afd2cb0f9dcad1bb8cc73caf65') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079095 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab
+  artifactKey: Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab using Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090503236d866d9d5f0821b6f8e745f3') in 0.008115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab
+  artifactKey: Guid(30b32b7e817116548af38dbf12fb57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab using Guid(30b32b7e817116548af38dbf12fb57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb032abf2b467e8880e044f498914a73') in 0.009345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab
+  artifactKey: Guid(908e3427a87e203428312e7911a4c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab using Guid(908e3427a87e203428312e7911a4c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bcbda852080f01ee4512cb852151e2') in 0.008868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab
+  artifactKey: Guid(a46ec114d125b3743bcceb157df289c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab using Guid(a46ec114d125b3743bcceb157df289c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddf6e1fb9f6e7806b3b11e0eb457b5d') in 0.009298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 28.554487 seconds.
+  path: Assets/SimpleCollectiblesPack/Models/CollectiblesSet2.fbx
+  artifactKey: Guid(2fa528ee8e91e55468e2fa9820a7064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Models/CollectiblesSet2.fbx using Guid(2fa528ee8e91e55468e2fa9820a7064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d7b65efa27b34fe72c44ebb1e392fd') in 0.139886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimpleCollectiblesPack/Models/CollectiblesSwordShield.fbx
+  artifactKey: Guid(b416babc01d186040bab8cd773f417f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Models/CollectiblesSwordShield.fbx using Guid(b416babc01d186040bab8cd773f417f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61ab9d7472f79b93e748afe1e62bf72') in 0.029849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\drake\cs4621\Project1SMB\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\drake\cs4621\Project1SMB\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.953 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.106 seconds
+Domain Reload Profiling: 2056ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (379ms)
+				TypeCache.ScanAssembly (365ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1106ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3488 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 4130.
+Memory consumption went from 146.1 MB to 146.1 MB.
+Total: 4.245800 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.318200 ms MarkObjects: 3.596400 ms  DeleteObjects: 0.049900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

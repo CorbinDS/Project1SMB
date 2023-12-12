@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ShaderTest.unity
+    guid: b3918bf0816689f4fbbcef9cb263abd2
+  - enabled: 1
+    path: Assets/Scenes/ProceduralGen.unity
+    guid: d96fc62f3b4320c4f95ba1998abe4ba6
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
